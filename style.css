@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0%;
+    background-color: rgb(138, 95, 27);;
+
+}
+
+header{
+    background-color: black; color: white; 
+    padding: 10px;
+    text-align: center;
+}
+ul{
+    list-style-type: none; 
+    padding: 20px;    
+    background-color: black;
+}
+li{
+    display: inline;
+    margin: 0% 10px
+}
+a{
+    color: black;
+    text-decoration: none;
+    border:solid;
+    font-size: 15px;
+    border-color: rgb(93, 53, 5);
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+
+}
+h1.top{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px;
+
+}
+
+h1,h2,h3,h4,h5{
+    font-size: 30px;
+    background-color: rgb(93, 53, 5);
+    padding: 25px;
+    text-align: center;
+    color: black;
+    border: solid;
+    border-color: black;
+}
+p{
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+  }
+  
+.left {
+    width: 50%;
+    padding: 20px;
+}
+.right {
+    width: 50%;
+    padding: 20px;
+}
+#container{
+    background-color: rgb(93, 53, 5);
+    margin: 50px 400px 150px 400px;
+    padding: 40px;
+}
+h1.register{
+    color: white;
+    background-color: rgb(93, 53, 5);
+    border: none;
+    padding: 5px;
+    
+}
+label{
+    margin: 10px;
+    display: inline-block;
+    width: 50px;
+    font-size: 25px;
+    color: white;
+
+}
+input{
+    width: 90%;
+    padding: 12px;
+    background-color: white;
+
+    border-color: rgb(241, 195, 122);
+    border-style: outset;
+}
+button{
+
+    width: 50%;
+    margin: 30px 100px 7px 100px;
+    background-color: rgb(209, 120, 11);
+    color:black;
+    padding: 5px;
+    font-size: large;
+    cursor: pointer;
+    border: solid white;
+
+}
+footer{
+    width: 100%;
+    padding: 5px;
+    bottom: 0%;
+    position: fixed;
+    text-align: center;
+    color: white;
+    background-color:black;
+}
+#pic{
+    border-style:solid;
+    border-radius: 20px;
+
+    border-color: rgb(93, 53, 5);
+    width: 100%;
+
+    
+}
+#picadd{
+    display: flex;
+    flex-direction: row;
+}
+  
+#left {
+    width: 50%;
+    padding: 20px;
+}
+#right {
+    width: 50%;
+    padding: 20px;
+}
+
+  
